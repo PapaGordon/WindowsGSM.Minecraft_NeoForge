@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><LangVersion>6</LangVersion><EnableDefaultCompileItems>false</EnableDefaultCompileItems><EnableNETAnalyzers>false</EnableNETAnalyzers></PropertyGroup>
+  <ItemGroup><Compile Include="ApiStubs.cs"/><Compile Include="../Minecraft_NeoForge.cs/Minecraft_NeoForge.cs" Link="Minecraft_NeoForge.cs"/></ItemGroup>
+</Project>

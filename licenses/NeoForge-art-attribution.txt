@@ -1,0 +1,16 @@
+NeoForge icon (Minecraft_NeoForge.cs/Minecraft_NeoForge.ico)
+
+Official NeoForged branding by Ridanisaurus.
+Copyright the NeoForged team.
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Source: https://github.com/neoforged/.github/blob/main/art/neoforged.ico
+Branding credits: https://github.com/neoforged/.github/blob/main/art/README.md
+Original Git blob: 3e78a3f6c0ffc9819da57e21bedda0e9f43f7ebd
+
+The icon is included unchanged to identify the NeoForge server entry.
+No endorsement or affiliation with NeoForged is implied.
+Full license text is included in NeoForge-art-CC-BY-4.0.txt.
+
+Minecraft_NeoForge.png is a lossless PNG format conversion of the original icon, without visual changes.

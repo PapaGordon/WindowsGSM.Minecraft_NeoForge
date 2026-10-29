@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+
+    <WindowsGSMDirectory Condition="'$(WindowsGSMDirectory)' == ''">$(MSBuildThisFileDirectory)..\..\WindowsGSM\WindowsGSM\bin\Release\net8.0-windows8.0</WindowsGSMDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ApiStubs.cs" />
+    <Compile Include="../Minecraft_NeoForge.cs/Minecraft_NeoForge.cs" Link="Minecraft_NeoForge.cs" />
+    <Reference Include="WindowsGSM"><HintPath>$(WindowsGSMDirectory)\WindowsGSM.dll</HintPath></Reference>
+    <Reference Include="System.Configuration.ConfigurationManager"><HintPath>$(WindowsGSMDirectory)\System.Configuration.ConfigurationManager.dll</HintPath></Reference>
+    <Reference Include="System.CodeDom"><HintPath>$(WindowsGSMDirectory)\System.CodeDom.dll</HintPath></Reference>
+    <Reference Include="System.Diagnostics.EventLog"><HintPath>$(WindowsGSMDirectory)\System.Diagnostics.EventLog.dll</HintPath></Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData"><HintPath>$(WindowsGSMDirectory)\System.Security.Cryptography.ProtectedData.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+name: Plugin API check
+on:
+  push:
+    branches: [main]
+    paths: ['Minecraft_NeoForge.cs/**', 'tests/**', '.github/workflows/check.yml']
+  pull_request:
+    paths: ['Minecraft_NeoForge.cs/**', 'tests/**', '.github/workflows/check.yml']
+permissions:
+  contents: read
+concurrency:
+  group: plugin-api-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-dotnet@v6.0.0
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet build tests/ApiCompatibility.csproj -c Release

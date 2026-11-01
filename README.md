@@ -99,7 +99,7 @@ The fixtures cover version selection, Java requirements, import, launch argument
 
 ## License
 
-Made by PapaGordon for MeFriendos. Plugin source is released under the [MIT License](LICENSE).
+Plugin source is released under the [MIT License](LICENSE).
 
 The NeoForge fox artwork is by [Ridanisaurus](https://github.com/Ridanisaurus), copyright the NeoForged team, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The ICO is unchanged; the PNG is a lossless format conversion for display. See [artwork credits](licenses/NeoForge-art-attribution.txt).
 
